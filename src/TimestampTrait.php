@@ -1,6 +1,6 @@
 <?php
 
-namespace YourCompany\DoctrineTools;
+namespace NandoJans\DoctrineTools;
 
 use DateTimeImmutable;
 use Doctrine\DBAL\Types\Types;
