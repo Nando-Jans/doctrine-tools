@@ -1,0 +1,15 @@
+{
+    "name": "your-company/doctrine-tools",
+    "description": "Shared Doctrine utilities",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "YourCompany\\DoctrineTools\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.5",
+        "doctrine/orm": "^3.0"
+    }
+}
