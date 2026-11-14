@@ -30,11 +30,11 @@ trait TimestampTrait
     }
 
     /**
-     * @param DateTimeImmutable|null $createdAt
+     * @return DateTimeImmutable|null
      */
-    public function setCreatedAt(?DateTimeImmutable $createdAt): void
+    public function getCreatedAt(): ?DateTimeImmutable
     {
-        $this->createdAt = $createdAt;
+        return $this->createdAt;
     }
 
     /**
